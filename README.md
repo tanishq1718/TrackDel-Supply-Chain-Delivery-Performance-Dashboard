@@ -1,16 +1,20 @@
 # TrackDel – Supply Chain Delivery Performance Dashboard
 
-## Overview
+An end-to-end **Data Analytics** project that analyzes supply chain delivery performance using **Python, MySQL, and Microsoft Power BI**. The project transforms raw supply chain data into meaningful business insights through data cleaning, exploratory data analysis (EDA), SQL analysis, and interactive dashboards.
 
-TrackDel is an end-to-end Data Analytics project developed to analyze supply chain delivery performance using Python, MySQL, and Microsoft Power BI. The project transforms raw supply chain data into meaningful business insights through data cleaning, exploratory data analysis (EDA), and interactive dashboards.
+---
+
+## Project Overview
+
+Supply chain organizations generate large volumes of logistics and delivery data every day. Without proper analysis, identifying delivery delays, inefficient shipping methods, supplier performance issues, and operational bottlenecks becomes difficult.
+
+TrackDel provides an interactive Power BI dashboard that helps monitor delivery performance, shipping efficiency, supplier performance, logistics operations, and order status to support data-driven business decisions.
 
 ---
 
 ## Problem Statement
 
-Supply chain organizations generate large volumes of logistics and delivery data. Without proper analysis, identifying delivery delays, shipping inefficiencies, and operational bottlenecks becomes difficult.
-
-TrackDel provides interactive dashboards that help monitor delivery performance, shipping efficiency, supplier performance, and order status for better business decision-making.
+Businesses often struggle to monitor supply chain performance due to large amounts of operational data. This project analyzes historical supply chain data to identify delivery delays, evaluate shipping performance, and generate meaningful business insights using interactive dashboards.
 
 ---
 
@@ -30,16 +34,17 @@ TrackDel provides interactive dashboards that help monitor delivery performance,
 
 - Python
 - Pandas
+- NumPy
 - MySQL
 - Microsoft Power BI
-- Visual Studio Code
+- Jupyter Notebook
 
 ---
 
 ## Dataset
 
 - **Dataset:** DataCo Supply Chain Dataset
-- **Source:** Kaggle
+- **Source:** [Kaggle – DataCo Smart Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
 - **Records:** 180,519
 - **Columns:** 53
 
@@ -68,18 +73,71 @@ Business Insights
 
 ---
 
+# Dashboard Preview
+
+## 1. Delivery Delays Dashboard
+
+![Delivery Delays](Dashboard/Dashboard_Images/1.%20Delivery%20Delays%20Dashboard.jpg)
+
+---
+
+## 2. Supplier Performance & Shipping Dashboard
+
+![Supplier Performance](Dashboard/Dashboard_Images/2.%20Supplier%20Performance%20%26%20Shipping%20Dashboard.jpg)
+
+---
+
+## 3. Order Status Dashboard
+
+![Order Status](Dashboard/Dashboard_Images/3.%20Order%20Status%20Dashboard.jpg)
+
+---
+
+## 4. Logistics Efficiency Dashboard
+
+![Logistics Efficiency](Dashboard/Dashboard_Images/4.%20Logistics%20Efficiency%20Dashboard.jpg)
+
+---
+
+## Key Features
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL Database Integration
+- Interactive Power BI Dashboards
+- KPI Monitoring
+- Delivery Performance Analysis
+- Shipping Mode Analysis
+- Supplier Performance Analysis
+- Order Status Analysis
+- Logistics Efficiency Analysis
+
+---
+
+## Key Insights
+
+- More than **54%** of deliveries experienced delays.
+- Standard Class was the most frequently used shipping mode.
+- Delivery performance varied across different regions.
+- Shipping delays impacted overall logistics efficiency.
+- Interactive dashboards simplify supply chain performance monitoring and business decision-making.
+
+---
+
 ## Repository Structure
 
 ```text
-TrackDel
+TrackDel-Supply-Chain-Delivery-Performance-Dashboard
 │
 ├── Assets
 ├── Dashboard
+│   ├── TrackDel.pbix
+│   └── Dashboard_Images
 ├── Data
-├── Notebooks
-├── PPT
-├── Reports
 ├── SQL
+├── Notebooks
+├── Reports
+├── PPT
 ├── README.md
 ├── LICENSE
 └── requirements.txt
@@ -87,34 +145,16 @@ TrackDel
 
 ---
 
-## Dashboard Pages
-
-- Delivery Delays Dashboard
-- Supplier Performance & Shipping Dashboard
-- Order Status Dashboard
-- Logistics Efficiency Dashboard
-
----
-
-## Key Insights
-
-- More than 54% of deliveries were delayed.
-- Standard Class was the most frequently used shipping mode.
-- Delivery performance varied across different regions.
-- Shipping delays affected overall logistics efficiency.
-- Interactive dashboards helped visualize key supply chain KPIs.
-
----
-
-## Future Improvements
-
-- Real-time dashboard integration
-- Machine Learning based delay prediction
-- Automated alert system
-- Cloud deployment
-
----
-
 ## Author
 
 **Tanishq**
+
+Computer Science & Engineering Student
+
+Aspiring Data Analyst
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
